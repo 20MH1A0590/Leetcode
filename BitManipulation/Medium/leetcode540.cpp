@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int singleNonDuplicate(vector<int>& nums) {
+        //***This problem is similar to leetcode 136
         // logic is simple using bit manipulation 
         // statement says that given a sorted array of integers and all elements that appears exactly twice except one element
         // For Example 1 :  [1,1,2,3,3,4,4,8,8]
