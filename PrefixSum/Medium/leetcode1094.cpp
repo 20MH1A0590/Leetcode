@@ -13,7 +13,7 @@ public:
         for(int ind = 1;ind < sz ;ind++)  ans[ind]=ans[ind]+ans[ind-1];
         for(int ind = 0;ind < sz;ind++)
         {
-            if(ans[ind] > capacity) return false; // while calc prefix if my ans[ind] exceeds then simply return false;
+            if(ans[ind] > capacity) return false; // while calc prefix if my ans[ind] exceeds capacity then simply return false;
         }
         return true;
     }
