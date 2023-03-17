@@ -15,4 +15,4 @@ public:
       }
       return total_money;
     }
-};
+};x
