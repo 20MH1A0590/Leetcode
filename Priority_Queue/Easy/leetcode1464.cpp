@@ -8,4 +8,4 @@ public:
         int s_top = pq.top();
         return (f_top-1)*(s_top-1);
     }
-};
+}

@@ -18,4 +18,4 @@ public:
         else if(s1 < s2) ans += word2.substr(s1,s2);
         return ans;
     }
-};
+};  
