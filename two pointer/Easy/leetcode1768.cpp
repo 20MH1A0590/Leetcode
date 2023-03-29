@@ -6,13 +6,12 @@ public:
         string ans = "";
         int k = min(s1,s2);
         int i = 0,j = 0;
-        while(k)
+        while(k--)
         {
             ans+=word1[i];
             ans+=word2[j];
             i++;
             j++;
-            k--;
         }
         if(s1 > s2) ans += word1.substr(s2,s1);
         else if(s1 < s2) ans += word2.substr(s1,s2);
