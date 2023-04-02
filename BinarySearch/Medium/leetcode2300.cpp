@@ -3,7 +3,7 @@ public:
     // approach :  BinarySearch + twopointers
     // first sort the potions vector and apply binary search on the potions vector
     // this will neglects some space, according to the condition it will returns the potions.size()-1-hi value
-    // this says that that many elements in the potions vector is >= success
+    // this says that that many elements in the potions vector is >= success for each element in the spells 
     Solution()
     {
         ios_base::sync_with_stdio(false);
