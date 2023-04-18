@@ -1,6 +1,7 @@
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
+        // KADANE'S ALGORITHM
         //fastio
         ios_base::sync_with_stdio(false);
         cin.tie(0);
